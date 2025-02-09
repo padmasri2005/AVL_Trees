@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 30px;
+}
+
+h1 {
+    font-size: 40px; /* Increased title size */
+    font-weight: bold;
+    color: #6b0679;
+}
+
+input {
+    height: 30px; /* Reduced height */
+    margin: 15px; /* Increased spacing between elements */
+    font-size: 15px;
+    padding: 10px; /* Increased padding for better spacing */
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 150px; /* Ensures uniform width */
+    height: 40px; /* Ensures uniform height */
+    font-size: 16px;
+    margin: 15px; /* Increased spacing between elements */
+    padding: 10px; /* Increased padding for better spacing */
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    cursor: pointer;
+    background-color: #3887db;
+    color: white;
+    border: none;
+    font-size: 18px; /* Increase button text size */
+}
+
+button:hover {
+    background-color: #19426f;
+}
+
+.reset-btn {
+    width: 50px; /* Smaller size for the reset icon */
+    height: 50px;
+    font-size: 24px; /* Increase icon size */
+    background-color: #3887db;
+    border-radius: 90%;
+    border: none;
+    cursor: pointer;
+    margin: 20px; /* Increased space around reset button */
+}
+
+.reset-btn:hover {
+    background-color:  #19426f;
+}
+
